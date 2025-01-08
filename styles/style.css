@@ -125,7 +125,7 @@ main{
 .coming-area{
     display: flex;
     justify-content: space-between;
-    /* gap: 78px; */
+    align-items: center;
     margin-top: 120px;
 }
 .coming-offer{

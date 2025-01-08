@@ -35,7 +35,7 @@
     background-image: linear-gradient(180.00deg, #070211,#07021100 100%), url(../images/banner-image.png);
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 50px 140px;
+    margin:0 140px 50px 140px;
     padding: 177px 344px;
     border-radius: 16px;
 }

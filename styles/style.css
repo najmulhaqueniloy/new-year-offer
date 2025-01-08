@@ -104,7 +104,6 @@ main{
 .address-area{
     border-radius: 16px;
     background: linear-gradient(180.00deg, #ff00001a,#ff000000 100%);
-    /* padding: 100px 385px 110px 385px; */
     margin-top: 105px;
     padding: 100px;
 }
@@ -198,4 +197,79 @@ main{
 }
 .parent .child img{
     width: 100%;
+}
+
+    /* Subscribe area styles */
+.subscribe-area{
+    background-color: rgba(255, 0, 0, 0.05);
+    padding: 80px 350px;
+    margin: 120px 0;
+}
+/* .input-container{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 50px;
+}
+.input-container input[type="email"]{
+    flex: 1;
+    background-color: #ffffff;
+    padding: 25px 34px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+.input-container button{
+    color:white;
+    border: none;
+    background-color: #ff0000;
+    cursor: pointer;
+    padding: 24px 56px;
+    font-size: 20px;
+}  */
+.input-container{
+    display: flex;
+    justify-content: center;
+}
+.input-container input[type="email"]{
+    background-color: #ffffff;
+    padding: 25px 267px 25px 34px;
+    border: none;
+    font-size: 20px;
+    border-radius: 50px 0 0 50px;
+}
+.input-container button{
+    color:white;
+    border: none;
+    background-color: #ff0000;
+    padding: 24px 56px;
+    font-size: 20px;
+    border-radius: 0 50px 50px 0 ;
+    cursor: pointer;
+}  
+
+    /* Footer section styles */
+.footer{
+    background-color: rgb(7, 2, 17);
+    padding: 120px 140px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text{
+    font-size: 24px;
+    color: #ffffff;
+}
+.icon-container{
+    text-align: center;
+    padding: 48px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    margin: 50px 0;
+}
+.icon-container img{
+    margin-right: 24px;
+    width: 64px;
+    height: 64px;
 }

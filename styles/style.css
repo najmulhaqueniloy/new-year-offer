@@ -1,0 +1,201 @@
+/* Merriweather font's link */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Inter font's link */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+     /* Shared styles */
+.inter-font{
+    font-family: "Inter", serif;
+}
+.merriweather-font{
+    font-family: "Merriweather", serif;
+}
+.text-align{
+    text-align: center;
+}
+.white-color{
+    color: #ffffff;
+}
+.red-color{
+    color: #ff0000;
+}
+.title{
+    font-size: 48px;
+    margin-bottom: -10px;
+}
+.description{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    line-height: 32px;
+}
+
+     /* Header area design */
+.header{
+    background-image: linear-gradient(180.00deg, #070211,#07021100 100%), url(../images/banner-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px 140px;
+    padding: 177px 344px;
+    border-radius: 16px;
+}
+.header div{
+    width: 630px;
+    margin: auto;
+}
+.header div p{
+    font-size: 32px;
+}
+.header div h1{
+    font-size: 72px;
+    line-height: 95px;
+}
+
+    /* Main Area */
+main{
+    margin: 0 140px;
+}
+
+    /* Discount area styles */
+.discount-content{
+    padding: 20px; 
+    border-radius: 5px; 
+}
+.discount-title{
+    font-size: 88px;
+    margin-bottom: 30px;
+}
+.discount-description{
+    font-size: 24px;
+    margin-bottom: -30px;
+}
+.alada-margin{
+    margin-bottom: 45px;
+}
+
+    /* Banner area styles */
+.banner-area{
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/vectorr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    height: 615px;
+    padding-top: 126px;
+    margin-top: 120px;
+    
+}
+.banner-title{
+    font-size: 68px;
+    width: 646px;
+}
+.banner-description{
+    font-size: 18px;
+    width: 697px;
+}
+.banner-join{
+    font-size: 20px;
+    margin-top: 48px;
+}
+
+    /* Address area styles */
+.address-area{
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, #ff00001a,#ff000000 100%);
+    /* padding: 100px 385px 110px 385px; */
+    margin-top: 105px;
+    padding: 100px;
+}
+.address-info{
+    font-size: 32px;
+    line-height: 30px;
+}
+.button{
+    background-color: #ff0000;
+    padding: 16px 32px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+    /* Coming Soon Offer styles */
+.coming-area{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 78px; */
+    margin-top: 120px;
+}
+.coming-offer{
+    font-size: 24px;
+    font-weight: Medium;
+    margin-bottom: -30px;
+}
+.ellipse-image{
+    box-sizing: border-box;
+    border: 15px solid red;
+    border-radius: 50%;
+    padding: 25px;
+}
+.coming-container-1{
+    width: 393px;
+}
+.coming-container-3{
+    width: 276px;
+}
+
+    /* Gift area styles */
+.gift-area{
+    margin-top: 120px;
+    background-image: url(../images/rectangle-1.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-size: 100%;
+}
+.gift-info{
+    font-size: 24px;
+    font-weight: medium;
+    margin-bottom: -30px;
+}
+.gift-title{
+    font-size: 72px;
+    margin-bottom: -10px;
+}
+.modon{
+    padding: 0 370px;
+}
+.image-parent{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 50px;
+}
+.image-1{
+    width: 675px;
+    height: 575px;
+    margin-bottom: 50px;
+}
+.image-2{
+    width: 305px;
+    height: 305px;
+}
+
+    /* Products area styles */
+.product-info{
+    width: 896px;
+}
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.child{
+    width: 32%;
+    margin-bottom: 20px;
+}
+.parent .child img{
+    width: 100%;
+}
